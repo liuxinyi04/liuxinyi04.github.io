@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 # Xinyi Liu
+[Download CV (PDF)](../xinyi_resume.pdf)
 
 - **Phone:** 646-262-2260  
 - **Email:** liu323@illinois.edu  

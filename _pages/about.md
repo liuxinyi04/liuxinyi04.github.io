@@ -79,11 +79,37 @@ Shujuan Yu, Xinyi Liu, Jun Cao, and Yun Zhang
 - **NYC Employment Data Analysis** (Nov 2020 – Jan 2021): Created interactive visualizations (R, D3.js) analyzing employment counts and salary trends across demographic groups. Published a project report using R Bookdown: NYC Employment Analysis Book. Finalist, Columbia DSI Best Student Project Competition.
 
 ## Work Experience
-- **Amazon – Applied Science Intern | Causal Inference, Persona Modeling** (Alexa AI, Summer 2025)
-  - Developed a behavior-conditioned LLM framework to simulate realistic user-AI conversations grounded in population-level persona groups.
-  - Leveraged causal inference to refine behavioral segmentation and control dialogue synthesis.
-  - Demonstrated strong gains in structural realism and behavioral fidelity over eight baseline models.
-- **ByteDance – Data Science Intern | Data Mining, User Segmentation** (Summer 2022)
-  - Designed and validated user segments using classification metrics (precision, recall, ROC-AUC) and cross-validation.
-  - Analyzed large-scale user behavior logs to identify actionable segment-level engagement trends.
-  - Built interactive BI dashboards to support product decisions through visualized behavioral insights.
+<div class="work-item">
+  <img src="../images/amazon.png" alt="Amazon" class="company-logo">
+  <div class="work-content">
+    <strong>Applied Science Intern | Causal Inference, Persona Modeling</strong><br/>
+    Amazon Alexa AI<br/>
+    Summer 2025
+  </div>
+</div>
+
+<div class="work-item">
+  <img src="../images/bytedance.png" alt="ByteDance" class="company-logo">
+  <div class="work-content">
+    <strong>Data Science Intern | Data Mining, User Segmentation</strong><br/>
+    ByteDance<br/>
+    Summer 2022
+  </div>
+</div>
+
+<style>
+.work-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+.work-content {
+  flex: 1;
+}
+</style>
