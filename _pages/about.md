@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+<div id="about">
 I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana-Champaign, advised by [Professor Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu/). My research lies at the intersection of large language models (LLMs), agent-based modeling, and social simulation. Specifically, I design persona-grounded LLM agents that simulate ideological behavior, belief shifts, and community-level dynamics in response to external events such as propaganda, misinformation, and persuasive narratives.
 
 I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek) and [Professor Heng Ji](https://blender.cs.illinois.edu/hengji.html), exploring research directions in natural language understanding, multimodal retrieval, and social behavior modeling.
@@ -34,6 +35,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     ByteDance | Summer 2022
   </div>
 </div>
+</div>
 
 <style>
 .work-item {
@@ -50,60 +52,86 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 .work-content {
   flex: 1;
 }
+.publication-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+.paper-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  object-fit: contain;
+  min-width: 40px;
+}
+.paper-icon-placeholder {
+  width: 40px;
+  min-width: 40px;
+  margin-right: 15px;
+}
+.paper-content {
+  flex: 1;
+}
+.paper-title {
+  margin-bottom: 0.3em;
+}
+.paper-authors {
+  margin-bottom: 0.3em;
+  color: #4a4a4a;
+}
+.paper-venue {
+  color: #666;
+}
 </style>
 
+<div id="publications">
 ## Publications
 
+You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+
 ### First-authored Publications
-[13] DocCHA: Towards LLM-Augmented Interactive Online diagnosis System  
-Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tür, Tarek Abdelzaher  
-*SIGDIAL 2025*
-
-[12] GPSocio: A Transformer-based General-purpose Social Network Representation System  
-Xinyi Liu, Dachun Sun, Tarek Abdelzaher  
-*ASONAM 2025*
-
-[11] Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions  
-Xinyi Liu, Dachun Sun, Dilek Hakkani Tur, Tarek Abdelzaher  
-*ASONAM 2025*
-
-[10] Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion  
-Xinyi Liu, Dachun Sun, Tarek Abdelzaher  
-*IEEE MetaCom 2025*
-
-[9] Uncovering Cross-Domain Recommendation Ability of Large Language Models  
-Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tur, Tarek Abdelzaher  
-*WWW workshop 2025*
-
-[8] Influence Pathway Discovery on Social Media  
-Xinyi Liu, Ruijie Wang, Dachun Sun, Jinning Li, Christina Youn, You Lyu, Jianyuan Zhan, Dayou Wu, Xinhe Xu, Mingjun Liu, Xinshuo Lei, Zhihao Xu, Yutong Zhang, Zehao Li, Qikai Yang, Tarek Abdelzaher  
-*IEEE CIC 2023*
-
-[7] Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns  
-Xinyi Liu, Jinning Li, Dachun Sun, Ruijie Wang, Tarek Abdelzaher, Matt Brown, Anthony Barricelli, Matthias Kirchner, Arslan Basharat  
-*ICWSM workshop 2023*
-
-[6] Clustering Algorithm in Wireless Sensor Networks Based on Differential Evolution Algorithm  
-Xinyi Liu, Ke Mei, and Shujuan Yu  
-*IEEE ITNEC 2020*
+{% assign first_author = site.publications | where_exp:"item","item.first_author" | sort: "number" | reverse %}
+{% for post in first_author %}
+  <div class="publication-item">
+    {% assign paper_files = site.static_files | where_exp: "file", "file.path contains '/images/papers/'" %}
+    {% assign found_image = false %}
+    {% for file in paper_files %}
+      {% assign file_number = file.name | split: '_' | first %}
+      {% if file_number == post.number %}
+        <img src="/images/papers/{{ file.name }}" alt="Paper {{ post.number }}" class="paper-icon">
+        {% assign found_image = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% unless found_image %}
+      <div class="paper-icon-placeholder"></div>
+    {% endunless %}
+    <div class="paper-content">
+      {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
 
 ### Co-authored Publications
-[5] The Irrational LLM: Implementing Cognitive Agents with Weighted Retrieval-Augmented Generation  
-Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Denizhan Kara, Christian Lebiere, Tarek Abdelzaher  
-*ICCCN 2025*
-
-[4] Perturbation-based Graph Active Learning for Semi-Supervised Belief Representation Learning  
-Dachun Sun, Jinning Li, Xinyi Liu, You Lyu, Hongjue Zhao, Denizhan Kara and Tarek Abdelzaher  
-*ICCCN 2025*
-
-[3] Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data  
-Dachun Sun, Jinning Li, You Lyu, Xinyi Liu, Christina Youn, Tarek Abdelzaher  
-*IEEE SmartNets 2025*
-
-[2] Modeling Online Ideological Community Dynamics with Recurrent Variational Graph Auto-Encoders  
-Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Tarek Abdelzaher  
-*IEEE IBDAP 2025*
-
-[1] Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels  
-Shujuan Yu, Xinyi Liu, Jun Cao, and Yun Zhang  
-*Entropy 2021; 23(8):1074*
+{% assign co_author = site.publications | where_exp:"item","item.first_author != true" | sort: "number" | reverse %}
+{% for post in co_author %}
+  <div class="publication-item">
+    {% assign paper_files = site.static_files | where_exp: "file", "file.path contains '/images/papers/'" %}
+    {% assign found_image = false %}
+    {% for file in paper_files %}
+      {% assign file_number = file.name | split: '_' | first %}
+      {% if file_number == post.number %}
+        <img src="/images/papers/{{ file.name }}" alt="Paper {{ post.number }}" class="paper-icon">
+        {% assign found_image = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% unless found_image %}
+      <div class="paper-icon-placeholder"></div>
+    {% endunless %}
+    <div class="paper-content">
+      {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
+</div>
