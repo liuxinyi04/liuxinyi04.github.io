@@ -19,22 +19,60 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 - **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
 
 ## Publications
+
 ### First-authored Publications
-- DocCHA: Towards LLM-Augmented Interactive Online diagnosis System<br/>Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tur, Tarek Abdelzaher. SIGDIAL 2025
-- GPSocio: A Transformer-based General-purpose Social Network Representation System<br/>Xinyi Liu, Dachun Sun, Tarek Abdelzaher. ASONAM 2025
-- Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions<br/>Xinyi Liu, Dachun Sun, Dilek Hakkani Tur, Tarek Abdelzaher. ASONAM 2025
-- Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion<br/>Xinyi Liu, Dachun Sun, Tarek Abdelzaher. IEEE MetaCom 2025
-- Uncovering Cross-Domain Recommendation Ability of Large Language Models<br/>Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tur, Tarek Abdelzaher. WWW workshop 2025
-- Influence Pathway Discovery on Social Media<br/>Xinyi Liu, Ruijie Wang, Dachun Sun, Jinning Li, Christina Youn, You Lyu, Jianyuan Zhan, Dayou Wu, Xinhe Xu, Mingjun Liu, Xinshuo Lei, Zhihao Xu, Yutong Zhang, Zehao Li, Qikai Yang, Tarek Abdelzaher. IEEE CIC 2023
-- Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns<br/>Xinyi Liu, Jinning Li, Dachun Sun, Ruijie Wang, Tarek Abdelzaher, Matt Brown, Anthony Barricelli, Matthias Kirchner, Arslan Basharat. ICWSM workshop 2023
-- Clustering Algorithm in Wireless Sensor Networks Based on Differential Evolution Algorithm<br/>Xinyi Liu, Ke Mei, and Shujuan Yu. IEEE ITNEC 2020
+1. **DocCHA: Towards LLM-Augmented Interactive Online diagnosis System**  
+   *SIGDIAL 2025*  
+   Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tür, Tarek Abdelzaher
+
+2. **GPSocio: A Transformer-based General-purpose Social Network Representation System**  
+   *ASONAM 2025*  
+   Xinyi Liu, Dachun Sun, Tarek Abdelzaher
+
+3. **Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions**  
+   *ASONAM 2025*  
+   Xinyi Liu, Dachun Sun, Dilek Hakkani Tur, Tarek Abdelzaher
+
+4. **Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion**  
+   *IEEE MetaCom 2025*  
+   Xinyi Liu, Dachun Sun, Tarek Abdelzaher
+
+5. **Uncovering Cross-Domain Recommendation Ability of Large Language Models**  
+   *WWW workshop 2025*  
+   Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tur, Tarek Abdelzaher
+
+6. **Influence Pathway Discovery on Social Media**  
+   *IEEE CIC 2023*  
+   Xinyi Liu, Ruijie Wang, Dachun Sun, Jinning Li, Christina Youn, You Lyu, Jianyuan Zhan, Dayou Wu, Xinhe Xu, Mingjun Liu, Xinshuo Lei, Zhihao Xu, Yutong Zhang, Zehao Li, Qikai Yang, Tarek Abdelzaher
+
+7. **Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns**  
+   *ICWSM workshop 2023*  
+   Xinyi Liu, Jinning Li, Dachun Sun, Ruijie Wang, Tarek Abdelzaher, Matt Brown, Anthony Barricelli, Matthias Kirchner, Arslan Basharat
+
+8. **Clustering Algorithm in Wireless Sensor Networks Based on Differential Evolution Algorithm**  
+   *IEEE ITNEC 2020*  
+   Xinyi Liu, Ke Mei, and Shujuan Yu
 
 ### Co-authored Publications
-- The Irrational LLM: Implementing Cognitive Agents with Weighted Retrieval-Augmented Generation<br/>Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Denizhan Kara, Christian Lebiere, Tarek Abdelzaher. ICCCN 2025
-- Perturbation-based Graph Active Learning for Semi-Supervised Belief Representation Learning<br/>Dachun Sun, Jinning Li, Xinyi Liu, You Lyu, Hongjue Zhao, Denizhan Kara and Tarek Abdelzaher. ICCCN 2025
-- Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data<br/>Dachun Sun, Jinning Li, You Lyu, Xinyi Liu, Christina Youn, Tarek Abdelzaher. IEEE SmartNets 2025
-- Modeling Online Ideological Community Dynamics with Recurrent Variational Graph Auto-Encoders<br/>Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Tarek Abdelzaher. IEEE IBDAP 2025
-- Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels<br/>Shujuan Yu, Xinyi Liu, Jun Cao, and Yun Zhang. Entropy 2021; 23(8):1074
+1. **The Irrational LLM: Implementing Cognitive Agents with Weighted Retrieval-Augmented Generation**  
+   *ICCCN 2025*  
+   Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Denizhan Kara, Christian Lebiere, Tarek Abdelzaher
+
+2. **Perturbation-based Graph Active Learning for Semi-Supervised Belief Representation Learning**  
+   *ICCCN 2025*  
+   Dachun Sun, Jinning Li, Xinyi Liu, You Lyu, Hongjue Zhao, Denizhan Kara and Tarek Abdelzaher
+
+3. **Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data**  
+   *IEEE SmartNets 2025*  
+   Dachun Sun, Jinning Li, You Lyu, Xinyi Liu, Christina Youn, Tarek Abdelzaher
+
+4. **Modeling Online Ideological Community Dynamics with Recurrent Variational Graph Auto-Encoders**  
+   *IEEE IBDAP 2025*  
+   Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Tarek Abdelzaher
+
+5. **Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels**  
+   *Entropy 2021; 23(8):1074*  
+   Shujuan Yu, Xinyi Liu, Jun Cao, and Yun Zhang
 
 ## Projects
 - **DARPA INCAS** (May 2022 – Dec 2024): Influence Campaign Awareness and Sensemaking — a multi-year project on understanding influence operations in low-dimensional information spaces and their impact on populations. Developed an interactive demo system that integrates ideology embedding, narrative pathway discovery, and influencer detection. Deployed the system at: incas.csl.illinois.edu, supporting visual exploration and interactive analysis of influence campaigns.
