@@ -17,7 +17,7 @@ linkedin_username: xinyi-liu-0428
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  name   : "Xinyi Liu"
+  name   : "xinyiliu"
   avatar : "/images/profile.png"
   bio    : "Ph.D. Candidate @ UIUC | Social Simulation & LLM"
 
