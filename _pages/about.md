@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<div id="about">
 I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana-Champaign, advised by [Professor Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu/). My research lies at the intersection of large language models (LLMs), agent-based modeling, and social simulation. Specifically, I design persona-grounded LLM agents that simulate ideological behavior, belief shifts, and community-level dynamics in response to external events such as propaganda, misinformation, and persuasive narratives.
 
 I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek) and [Professor Heng Ji](https://blender.cs.illinois.edu/hengji.html), exploring research directions in natural language understanding, multimodal retrieval, and social behavior modeling.
@@ -219,8 +218,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 }
 
 .paper-image {
-  flex: 0 0 216px;
-  height: 216px;
+  flex: 0 0 180px;
+  height: 180px;
   overflow: hidden;
   border-radius: 4px;
 }
