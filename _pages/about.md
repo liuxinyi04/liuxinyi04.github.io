@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xinyi Liu"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -49,12 +49,6 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 }
 .work-content {
   flex: 1;
-}
-.cv-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
-  vertical-align: middle;
 }
 </style>
 

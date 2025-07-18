@@ -20,7 +20,7 @@ author:
   location: "Champaign, IL, USA"
   googlescholar: "https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en"
   cv: "xinyi_resume.pdf"
-  cv_icon: "resume.png"
+  cv_icon: "resume_icon.png"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

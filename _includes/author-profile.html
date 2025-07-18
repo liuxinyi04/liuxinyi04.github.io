@@ -25,7 +25,7 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
-        <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
@@ -48,7 +48,7 @@
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv | prepend: '/files/' | prepend: base_path }}"><img src="{{ author.cv_icon | prepend: '/images/' | prepend: base_path }}" class="cv-icon" alt="CV" />CV</a></li>
+        <li><a href="{{ author.cv | prepend: '/files/' | prepend: base_path }}"><img src="{{ author.cv_icon | prepend: '/images/' | prepend: base_path }}" class="ai-fw" style="width: 16px; height: 16px; margin-right: 4px;" alt="CV" />CV</a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
