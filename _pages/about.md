@@ -47,7 +47,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
     <img src="/images/papers/13.png" alt="Paper 13">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[DocCHA: Towards LLM-Augmented Interactive Online diagnosis System](https://arxiv.org/abs/2507.07870)</div>
+    <div class="paper-title"><a href="https://arxiv.org/abs/2507.07870">DocCHA: Towards LLM-Augmented Interactive Online diagnosis System</a></div>
     <div class="paper-authors">Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tür, Tarek Abdelzaher</div>
     <div class="paper-venue">*SIGDIAL 2025*</div>
   </div>
@@ -91,7 +91,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
     <img src="/images/papers/9.png" alt="Paper 9">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[Uncovering Cross-Domain Recommendation Ability of Large Language Models](https://dl.acm.org/doi/abs/10.1145/3701716.3717850)</div>
+    <div class="paper-title"><a href="https://dl.acm.org/doi/abs/10.1145/3701716.3717850">Uncovering Cross-Domain Recommendation Ability of Large Language Models</a></div>
     <div class="paper-authors">Xinyi Liu, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tur, Tarek Abdelzaher</div>
     <div class="paper-venue">*WWW workshop 2025*</div>
   </div>
@@ -102,7 +102,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
     <img src="/images/papers/8.png" alt="Paper 8">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[Influence Pathway Discovery on Social Media](https://ieeexplore.ieee.org/abstract/document/10429919)</div>
+    <div class="paper-title"><a href="https://ieeexplore.ieee.org/abstract/document/10429919">Influence Pathway Discovery on Social Media</a></div>
     <div class="paper-authors">Xinyi Liu, Ruijie Wang, Dachun Sun, Jinning Li, Christina Youn, You Lyu, Jianyuan Zhan, Dayou Wu, Xinhe Xu, Mingjun Liu, Xinshuo Lei, Zhihao Xu, Yutong Zhang, Zehao Li, Qikai Yang, Tarek Abdelzaher</div>
     <div class="paper-venue">*IEEE CIC 2023*</div>
   </div>
@@ -113,7 +113,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
     <img src="/images/papers/7.png" alt="Paper 7">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns](https://arxiv.org/abs/2305.14494)</div>
+    <div class="paper-title"><a href="https://arxiv.org/abs/2305.14494">Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns</a></div>
     <div class="paper-authors">Xinyi Liu, Jinning Li, Dachun Sun, Ruijie Wang, Tarek Abdelzaher, Matt Brown, Anthony Barricelli, Matthias Kirchner, Arslan Basharat</div>
     <div class="paper-venue">*ICWSM workshop 2023*</div>
   </div>
@@ -123,14 +123,17 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   <div class="paper-image">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[Clustering Algorithm in Wireless Sensor Networks Based on Differential Evolution Algorithm](https://ieeexplore.ieee.org/abstract/document/9085089)</div>
+    <div class="paper-title"><a href="https://ieeexplore.ieee.org/abstract/document/9085089">Clustering Algorithm in Wireless Sensor Networks Based on Differential Evolution Algorithm</a></div>
     <div class="paper-authors">Xinyi Liu, Ke Mei, and Shujuan Yu</div>
     <div class="paper-venue">*IEEE ITNEC 2020*</div>
   </div>
 </div>
 
-### Co-authored Publications
+</div>
 
+## Co-authored Publications
+
+<div class="publications-list">
 <div class="publication-item">
   <div class="paper-image">
     <img src="/images/papers/5.png" alt="Paper 5">
@@ -147,7 +150,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
     <img src="/images/papers/4.png" alt="Paper 4">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[Perturbation-based Graph Active Learning for Semi-Supervised Belief Representation Learning](https://arxiv.org/abs/2410.19176)</div>
+    <div class="paper-title"><a href="https://arxiv.org/abs/2410.19176">Perturbation-based Graph Active Learning for Semi-Supervised Belief Representation Learning</a></div>
     <div class="paper-authors">Dachun Sun, Jinning Li, Xinyi Liu, You Lyu, Hongjue Zhao, Denizhan Kara and Tarek Abdelzaher</div>
     <div class="paper-venue">*ICCCN 2025*</div>
   </div>
@@ -179,12 +182,11 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   <div class="paper-image">
   </div>
   <div class="paper-content">
-    <div class="paper-title">[Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels](https://www.mdpi.com/1099-4300/23/8/1074)</div>
+    <div class="paper-title"><a href="https://www.mdpi.com/1099-4300/23/8/1074">Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels</a></div>
     <div class="paper-authors">Shujuan Yu, Xinyi Liu, Jun Cao, and Yun Zhang</div>
     <div class="paper-venue">*Entropy 2021*</div>
   </div>
 </div>
-
 </div>
 
 <style>
