@@ -1,18 +1,11 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+xinyiliu:
+  name        : "Xinyi Liu"
+  avatar      : "/images/profile.png"
+  bio         : "Ph.D. Candidate @ UIUC<br>LLMs | Social Simulation | Diagnosis AI"
+  location    : "Illinois, USA"
+  affiliation : "University of Illinois Urbana-Champaign"
+  email       : "liu323@illinois.edu"
+  uri         : "https://liuxinyi04.github.io"
+  github      : "liuxinyi04"
+  linkedin    : "xinyi-liu-0428"
+  googlescholar: "https://scholar.google.com/"
