@@ -21,7 +21,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 
 ## Work Experience
 <div class="work-item">
-  <img src="images/amazon.png" alt="Amazon" class="company-logo">
+  <img src="/images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
     Applied Science Intern | Causal Inference, Persona Modeling<br/>
     Amazon Alexa AI | Summer 2025
@@ -29,7 +29,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </div>
 
 <div class="work-item">
-  <img src="images/bytedance.png" alt="ByteDance" class="company-logo">
+  <img src="/images/bytedance.png" alt="ByteDance" class="company-logo">
   <div class="work-content">
     Data Science Intern | Data Mining, User Segmentation<br/>
     ByteDance | Summer 2022
@@ -41,23 +41,27 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en).
 
 ### First-authored Publications
-{% assign first_author = site.publications | where: "first_author", true | sort: "date" | reverse %}
+{% assign first_author = site.publications | where: "first_author", true | sort: "number" | reverse %}
 {% for post in first_author %}
   <div class="publication-item">
-    <img src="images/papers/{{ post.number }}.png" alt="Paper {{ post.number }}" class="paper-icon">
     <div class="paper-content">
-      {{ post.content }}
+      <div class="paper-title">[{{ post.number }}] {{ post.title | remove: "[" | remove: post.number | remove: "]" | strip }}</div>
+      <div class="paper-authors">{{ post.authors }}</div>
+      <div class="paper-venue">{{ post.venue }}</div>
+      <img src="/images/papers/{{ post.number }}.png" alt="Paper {{ post.number }}" class="paper-icon">
     </div>
   </div>
 {% endfor %}
 
 ### Co-authored Publications
-{% assign co_author = site.publications | where: "first_author", false | sort: "date" | reverse %}
+{% assign co_author = site.publications | where: "first_author", false | sort: "number" | reverse %}
 {% for post in co_author %}
   <div class="publication-item">
-    <img src="images/papers/{{ post.number }}.png" alt="Paper {{ post.number }}" class="paper-icon">
     <div class="paper-content">
-      {{ post.content }}
+      <div class="paper-title">[{{ post.number }}] {{ post.title | remove: "[" | remove: post.number | remove: "]" | strip }}</div>
+      <div class="paper-authors">{{ post.authors }}</div>
+      <div class="paper-venue">{{ post.venue }}</div>
+      <img src="/images/papers/{{ post.number }}.png" alt="Paper {{ post.number }}" class="paper-icon">
     </div>
   </div>
 {% endfor %}
@@ -67,7 +71,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 .work-item, .publication-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .company-logo {
   width: 80px;
@@ -77,20 +81,19 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   min-width: 80px;
 }
 .paper-icon {
-  width: 120px;
-  height: 120px;
-  margin-right: 20px;
-  object-fit: contain;
-  min-width: 120px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 15px;
   display: block;
 }
 .work-content, .paper-content {
   flex: 1;
 }
 .paper-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-bottom: 0.5em;
-  font-weight: bold;
+  font-weight: normal;
 }
 .paper-authors {
   margin-bottom: 0.5em;
