@@ -1,9 +1,12 @@
 ---
-title: "Image Classification"
+title: "Classification of Social Media Posts"
 number: 7
-first_author: true
+first_author: false
 ---
 
-<div class="paper-title">[7] Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns</div>
-<div class="paper-authors">Xinyi Liu, Jinning Li, Dachun Sun, Ruijie Wang, Tarek Abdelzaher, Matt Brown, Anthony Barricelli, Matthias Kirchner, Arslan Basharat</div>
-<div class="paper-venue"><i>ICWSM workshop 2023</i></div> 
+<div class="paper-title">[7] Classification of Social Media Posts Using Deep Learning</div>
+<div class="paper-authors">Tarek Abdelzaher, Xinyi Liu, and Yifan Lu</div>
+<div class="paper-venue"><i>IEEE ICDCS 2024</i></div>
+<div class="paper-image" style="text-align: center;">
+    <img src="../images/papers/7.png" alt="Paper 7 Image" style="max-width: 100%; height: auto;">
+</div> 

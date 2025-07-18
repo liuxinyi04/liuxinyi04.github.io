@@ -1,9 +1,12 @@
 ---
-title: "Anatomy of Conflict"
+title: "Anatomy of Targeted Attacks"
 number: 3
 first_author: false
 ---
 
-<div class="paper-title">[3] Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data</div>
-<div class="paper-authors">Dachun Sun, Jinning Li, You Lyu, Xinyi Liu, Christina Youn, Tarek Abdelzaher</div>
-<div class="paper-venue"><i>IEEE SmartNets 2025</i></div> 
+<div class="paper-title">[3] Anatomy of Targeted Attacks on Deep Learning Models</div>
+<div class="paper-authors">Tarek Abdelzaher, Xinyi Liu, and Yifan Lu</div>
+<div class="paper-venue"><i>IEEE ICDCS 2024</i></div>
+<div class="paper-image" style="text-align: center;">
+    <img src="../images/papers/3.png" alt="Paper 3 Image" style="max-width: 100%; height: auto;">
+</div> 
