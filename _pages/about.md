@@ -8,18 +8,18 @@ redirect_from:
 ---
 
 <div id="about">
-I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana-Champaign, advised by <a href="https://abdelzaher.cs.illinois.edu/">Professor Tarek Abdelzaher</a>. My research lies at the intersection of large language models (LLMs), agent-based modeling, and social simulation. Specifically, I design persona-grounded LLM agents that simulate ideological behavior, belief shifts, and community-level dynamics in response to external events such as propaganda, misinformation, and persuasive narratives.
+I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana-Champaign, advised by [Professor Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu/). My research lies at the intersection of large language models (LLMs), agent-based modeling, and social simulation. Specifically, I design persona-grounded LLM agents that simulate ideological behavior, belief shifts, and community-level dynamics in response to external events such as propaganda, misinformation, and persuasive narratives.
 
-I work closely with <a href="https://siebelschool.illinois.edu/about/people/faculty/dilek">Professor Dilek Hakkani-Tür</a> and <a href="https://blender.cs.illinois.edu/hengji.html">Professor Heng Ji</a>, exploring research directions in natural language understanding, multimodal retrieval, and social behavior modeling.
+I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek) and [Professor Heng Ji](https://blender.cs.illinois.edu/hengji.html), exploring research directions in natural language understanding, multimodal retrieval, and social behavior modeling.
 
 My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
-<h2>Education</h2>
+## Education
 - **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)
 - **Master of Science in Data Science**, Columbia University, New York, NY (May 2022)
 - **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
 
-<h2>Work Experience</h2>
+## Work Experience
 <div class="work-item">
   <img src="../images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
@@ -35,62 +35,12 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     ByteDance | Summer 2022
   </div>
 </div>
-</div>
 
-<style>
-.work-item, .publication-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
-  margin-left: 20%; /* 增加左边距，让内容往右移 */
-}
-.company-logo {
-  width: 80px;
-  height: 80px;
-  margin-right: 15px;
-  object-fit: contain;
-  min-width: 80px;
-}
-.paper-icon {
-  width: 120px; /* 增加图片尺寸 */
-  height: 120px;
-  margin-right: 20px;
-  object-fit: contain;
-  min-width: 120px;
-  display: block; /* 确保图片显示 */
-}
-.work-content, .paper-content {
-  flex: 1;
-  max-width: 60%; /* 限制内容宽度 */
-}
-.paper-title {
-  margin-bottom: 0.3em;
-}
-.paper-authors {
-  margin-bottom: 0.3em;
-  color: #4a4a4a;
-}
-.paper-venue {
-  color: #666;
-}
+## Publications
 
-/* 添加响应式布局 */
-@media screen and (max-width: 768px) {
-  .work-item, .publication-item {
-    margin-left: 0;
-  }
-  .work-content, .paper-content {
-    max-width: 100%;
-  }
-}
-</style>
+You can also find my articles on [my Google Scholar profile]({{site.author.googlescholar}}).
 
-<div id="publications">
-<h2>Publications</h2>
-
-You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
-
-<h3>First-authored Publications</h3>
+### First-authored Publications
 {% assign first_author = site.publications | where_exp:"item","item.first_author" | sort: "number" | reverse %}
 {% for post in first_author %}
   <div class="publication-item">
@@ -109,7 +59,7 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
   </div>
 {% endfor %}
 
-<h3>Co-authored Publications</h3>
+### Co-authored Publications
 {% assign co_author = site.publications | where_exp:"item","item.first_author != true" | sort: "number" | reverse %}
 {% for post in co_author %}
   <div class="publication-item">
@@ -128,3 +78,51 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
   </div>
 {% endfor %}
 </div>
+
+<style>
+.work-item, .publication-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  object-fit: contain;
+  min-width: 80px;
+}
+.paper-icon {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  object-fit: contain;
+  min-width: 120px;
+  display: block;
+}
+.work-content, .paper-content {
+  flex: 1;
+}
+.paper-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.paper-authors {
+  margin-bottom: 0.5em;
+  color: #4a4a4a;
+}
+.paper-venue {
+  color: #666;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .work-item, .publication-item {
+    flex-direction: column;
+  }
+  .paper-icon, .company-logo {
+    margin-bottom: 10px;
+  }
+}
+</style>
