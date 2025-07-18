@@ -51,16 +51,12 @@
   ],
   "work": [
     {
-      "company": "Amazon",
+      "company": "Amazon Alexa AI",
       "position": "Applied Science Intern | Causal Inference, Persona Modeling",
       "startDate": "2025-06",
       "endDate": "2025-08",
-      "summary": "Alexa AI, Summer 2025",
-      "highlights": [
-        "Developed a behavior-conditioned LLM framework to simulate realistic user-AI conversations grounded in population-level persona groups.",
-        "Leveraged causal inference to refine behavioral segmentation and control dialogue synthesis.",
-        "Demonstrated strong gains in structural realism and behavioral fidelity over eight baseline models."
-      ]
+      "summary": "Summer 2025",
+      "highlights": []
     },
     {
       "company": "ByteDance",
@@ -68,15 +64,11 @@
       "startDate": "2022-06",
       "endDate": "2022-08",
       "summary": "Summer 2022",
-      "highlights": [
-        "Designed and validated user segments using classification metrics (precision, recall, ROC-AUC) and cross-validation.",
-        "Analyzed large-scale user behavior logs to identify actionable segment-level engagement trends.",
-        "Built interactive BI dashboards to support product decisions through visualized behavioral insights."
-      ]
+      "highlights": []
     }
   ],
   "publications": [
-    {"name": "DocCHA: Towards LLM-Augmented Interactive Online diagnosis System", "publisher": "SIGDIAL", "releaseDate": "2025", "summary": "Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tur, Tarek Abdelzaher"},
+    {"name": "DocCHA: Towards LLM-Augmented Interactive Online diagnosis System", "publisher": "SIGDIAL", "releaseDate": "2025", "summary": "Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tür, Tarek Abdelzaher"},
     {"name": "GPSocio: A Transformer-based General-purpose Social Network Representation System", "publisher": "ASONAM", "releaseDate": "2025", "summary": "Xinyi Liu, Dachun Sun, Tarek Abdelzaher"},
     {"name": "Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions", "publisher": "ASONAM", "releaseDate": "2025", "summary": "Xinyi Liu, Dachun Sun, Dilek Hakkani Tur, Tarek Abdelzaher"},
     {"name": "Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion", "publisher": "IEEE MetaCom", "releaseDate": "2025", "summary": "Xinyi Liu, Dachun Sun, Tarek Abdelzaher"},

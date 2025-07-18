@@ -55,29 +55,15 @@
   {% if cv.work.size > 0 %}
   <div class="cv-section">
     <h2>Work Experience</h2>
-    <ul class="cv-list">
-      {% for work in cv.work %}
-      <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
-        </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ work.company }}</div>
-          {% if work.summary %}
-          <div class="cv-item-detail">{{ work.summary }}</div>
-          {% endif %}
-          {% if work.highlights.size > 0 %}
-          <ul class="cv-highlights">
-            {% for highlight in work.highlights %}
-            <li>{{ highlight }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
+    {% for work in cv.work %}
+    <div class="work-item">
+      <img src="{{ base_path }}/images/{% if work.company contains 'Amazon' %}amazon.png{% else %}bytedance.png{% endif %}" alt="{{ work.company }}" class="company-logo">
+      <div class="work-content">
+        {{ work.position }}<br/>
+        {{ work.company }} | {{ work.summary }}
+      </div>
+    </div>
+    {% endfor %}
   </div>
   {% endif %}
 
@@ -122,3 +108,20 @@
   </div>
   {% endif %}
 </div>
+
+<style>
+.work-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.company-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+.work-content {
+  flex: 1;
+}
+</style>
