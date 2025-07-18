@@ -122,17 +122,17 @@ alexa_site_verification  :
 yandex_site_verification :
 
 
-social:
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:liu323@illinois.edu"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/xinyi-liu-0428"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/liuxinyi04"
+# social:
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-envelope"
+#       url: "mailto:liu323@illinois.edu"
+#     - label: "LinkedIn"
+#       icon: "fab fa-linkedin"
+#       url: "https://linkedin.com/in/xinyi-liu-0428"
+#     - label: "GitHub"
+#       icon: "fab fa-github"
+#       url: "https://github.com/liuxinyi04"
 
 
 # Analytics
