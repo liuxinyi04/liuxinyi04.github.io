@@ -18,6 +18,46 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 - **Master of Science in Data Science**, Columbia University, New York, NY (May 2022)
 - **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
 
+## Work Experience
+<div class="work-item">
+  <img src="../images/amazon.png" alt="Amazon" class="company-logo">
+  <div class="work-content">
+    Applied Science Intern | Causal Inference, Persona Modeling<br/>
+    Amazon Alexa AI | Summer 2025
+  </div>
+</div>
+
+<div class="work-item">
+  <img src="../images/bytedance.png" alt="ByteDance" class="company-logo">
+  <div class="work-content">
+    Data Science Intern | Data Mining, User Segmentation<br/>
+    ByteDance | Summer 2022
+  </div>
+</div>
+
+<style>
+.work-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.company-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  object-fit: contain;
+}
+.work-content {
+  flex: 1;
+}
+.cv-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+</style>
+
 ## Publications
 
 ### First-authored Publications
@@ -73,43 +113,3 @@ Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Tarek Abdelzaher
 [1] Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels  
 Shujuan Yu, Xinyi Liu, Jun Cao, and Yun Zhang  
 *Entropy 2021; 23(8):1074*
-
-## Projects
-- **DARPA INCAS** (May 2022 – Dec 2024): Influence Campaign Awareness and Sensemaking — a multi-year project on understanding influence operations in low-dimensional information spaces and their impact on populations. Developed an interactive demo system that integrates ideology embedding, narrative pathway discovery, and influencer detection. Deployed the system at: incas.csl.illinois.edu, supporting visual exploration and interactive analysis of influence campaigns.
-- **NYC Employment Data Analysis** (Nov 2020 – Jan 2021): Created interactive visualizations (R, D3.js) analyzing employment counts and salary trends across demographic groups. Published a project report using R Bookdown: NYC Employment Analysis Book. Finalist, Columbia DSI Best Student Project Competition.
-
-## Work Experience
-<div class="work-item">
-  <img src="../images/amazon.png" alt="Amazon" class="company-logo">
-  <div class="work-content">
-    <strong>Applied Science Intern | Causal Inference, Persona Modeling</strong><br/>
-    Amazon Alexa AI<br/>
-    Summer 2025
-  </div>
-</div>
-
-<div class="work-item">
-  <img src="../images/bytedance.png" alt="ByteDance" class="company-logo">
-  <div class="work-content">
-    <strong>Data Science Intern | Data Mining, User Segmentation</strong><br/>
-    ByteDance<br/>
-    Summer 2022
-  </div>
-</div>
-
-<style>
-.work-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.company-logo {
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
-  object-fit: contain;
-}
-.work-content {
-  flex: 1;
-}
-</style>
