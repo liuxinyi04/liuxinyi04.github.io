@@ -21,7 +21,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 
 ## Work Experience
 <div class="work-item">
-  <img src="../images/amazon.png" alt="Amazon" class="company-logo">
+  <img src="images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
     Applied Science Intern | Causal Inference, Persona Modeling<br/>
     Amazon Alexa AI | Summer 2025
@@ -29,7 +29,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </div>
 
 <div class="work-item">
-  <img src="../images/bytedance.png" alt="ByteDance" class="company-logo">
+  <img src="images/bytedance.png" alt="ByteDance" class="company-logo">
   <div class="work-content">
     Data Science Intern | Data Mining, User Segmentation<br/>
     ByteDance | Summer 2022
@@ -38,21 +38,13 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 
 ## Publications
 
-You can also find my articles on [my Google Scholar profile]({{site.author.googlescholar}}).
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en).
 
 ### First-authored Publications
-{% assign first_author = site.publications | where_exp:"item","item.first_author" | sort: "number" | reverse %}
+{% assign first_author = site.publications | where: "first_author", true | sort: "date" | reverse %}
 {% for post in first_author %}
   <div class="publication-item">
-    {% assign paper_number = post.number | downcase %}
-    {% assign paper_files = site.static_files | where_exp: "file", "file.path contains '/images/papers/'" %}
-    {% for file in paper_files %}
-      {% assign file_number = file.name | split: '_' | first %}
-      {% if file_number == paper_number %}
-        <img src="../images/papers/{{ file.name }}" alt="Paper {{ post.number }}" class="paper-icon">
-        {% break %}
-      {% endif %}
-    {% endfor %}
+    <img src="images/papers/{{ post.number }}.png" alt="Paper {{ post.number }}" class="paper-icon">
     <div class="paper-content">
       {{ post.content }}
     </div>
@@ -60,18 +52,10 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 {% endfor %}
 
 ### Co-authored Publications
-{% assign co_author = site.publications | where_exp:"item","item.first_author != true" | sort: "number" | reverse %}
+{% assign co_author = site.publications | where: "first_author", false | sort: "date" | reverse %}
 {% for post in co_author %}
   <div class="publication-item">
-    {% assign paper_number = post.number | downcase %}
-    {% assign paper_files = site.static_files | where_exp: "file", "file.path contains '/images/papers/'" %}
-    {% for file in paper_files %}
-      {% assign file_number = file.name | split: '_' | first %}
-      {% if file_number == paper_number %}
-        <img src="../images/papers/{{ file.name }}" alt="Paper {{ post.number }}" class="paper-icon">
-        {% break %}
-      {% endif %}
-    {% endfor %}
+    <img src="images/papers/{{ post.number }}.png" alt="Paper {{ post.number }}" class="paper-icon">
     <div class="paper-content">
       {{ post.content }}
     </div>
