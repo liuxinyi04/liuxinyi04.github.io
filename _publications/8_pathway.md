@@ -1,12 +1,16 @@
 ---
-title: "Pathway Analysis"
-number: 8
-first_author: false
+title: "[8] Influence Pathway Discovery on Social Media"
+collection: publications
+permalink: /publication/pathway
+date: 2023-01-01
+venue: 'IEEE CIC 2023'
+first_author: true
 ---
 
-<div class="paper-title">[8] Pathway Analysis in Social Networks</div>
-<div class="paper-authors">Tarek Abdelzaher, Xinyi Liu, and Yifan Lu</div>
-<div class="paper-venue"><i>IEEE ICDCS 2024</i></div>
-<div class="paper-image" style="text-align: center;">
-    <img src="../images/papers/8.png" alt="Paper 8 Image" style="max-width: 100%; height: auto;">
-</div> 
+[8] Influence Pathway Discovery on Social Media
+
+Xinyi Liu, Ruijie Wang, Dachun Sun, Jinning Li, Christina Youn, You Lyu, Jianyuan Zhan, Dayou Wu, Xinhe Xu, Mingjun Liu, Xinshuo Lei, Zhihao Xu, Yutong Zhang, Zehao Li, Qikai Yang, Tarek Abdelzaher
+
+*IEEE CIC 2023*
+
+![Paper 8 Image](../images/papers/8.png) 

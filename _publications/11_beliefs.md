@@ -1,12 +1,16 @@
 ---
-title: "Belief Systems"
-number: 11
-first_author: false
+title: "[11] Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions"
+collection: publications
+permalink: /publication/beliefs
+date: 2025-01-01
+venue: 'ASONAM 2025'
+first_author: true
 ---
 
-<div class="paper-title">[11] Understanding Belief Systems in Social Networks</div>
-<div class="paper-authors">Tarek Abdelzaher, Xinyi Liu, and Yifan Lu</div>
-<div class="paper-venue"><i>IEEE ICDCS 2024</i></div>
-<div class="paper-image" style="text-align: center;">
-    <img src="../images/papers/11.png" alt="Paper 11 Image" style="max-width: 100%; height: auto;">
-</div> 
+[11] Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions
+
+Xinyi Liu, Dachun Sun, Dilek Hakkani Tur, Tarek Abdelzaher
+
+*ASONAM 2025*
+
+![Paper 11 Image](../images/papers/11.png) 

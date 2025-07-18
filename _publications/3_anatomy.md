@@ -1,13 +1,16 @@
 ---
-title: "Anatomy of Misinformation"
-number: 3
-first_author: true
+title: "[3] Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data"
+collection: publications
+permalink: /publication/anatomy
+date: 2025-01-01
+venue: 'IEEE SmartNets 2025'
+first_author: false
 ---
 
-# Anatomy of Misinformation: Understanding the Evolution of Online Misinformation Narratives
+[3] Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data
 
-**Authors:** Xinyi Liu, Tarek Abdelzaher, and Heng Ji
+Dachun Sun, Jinning Li, You Lyu, Xinyi Liu, Christina Youn, Tarek Abdelzaher
 
-**Venue:** *IEEE ICDCS 2023*
+*IEEE SmartNets 2025*
 
-![Paper 3 Image](/images/papers/3.png) 
+![Paper 3 Image](../images/papers/3.png) 

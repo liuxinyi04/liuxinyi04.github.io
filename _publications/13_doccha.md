@@ -1,13 +1,16 @@
 ---
-title: "DocCha"
-number: 13
-first_author: false
+title: "[13] DocCHA: Towards LLM-Augmented Interactive Online diagnosis System"
+collection: publications
+permalink: /publication/doccha
+date: 2025-01-01
+venue: 'SIGDIAL 2025'
+first_author: true
 ---
 
-# DocCha: Document Change Analysis System
+[13] DocCHA: Towards LLM-Augmented Interactive Online diagnosis System
 
-**Authors:** Tarek Abdelzaher, Xinyi Liu, and Yifan Lu
+Xinyi Liu, Dachun Sun, Yi R Fung, Dilek Hakkani-Tür, Tarek Abdelzaher
 
-**Venue:** *IEEE ICDCS 2024*
+*SIGDIAL 2025*
 
-![Paper 13 Image](/images/papers/13.png) 
+![Paper 13 Image](../images/papers/13.png) 

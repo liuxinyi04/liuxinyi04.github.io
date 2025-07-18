@@ -1,13 +1,16 @@
 ---
-title: "Modeling Dynamics"
-number: 2
+title: "[2] Modeling Online Ideological Community Dynamics with Recurrent Variational Graph Auto-Encoders"
+collection: publications
+permalink: /publication/modeling
+date: 2025-01-01
+venue: 'IEEE IBDAP 2025'
 first_author: false
 ---
 
-# Modeling Dynamics of Collective Decision Making under Uncertainty
+[2] Modeling Online Ideological Community Dynamics with Recurrent Variational Graph Auto-Encoders
 
-**Authors:** Yun Zhang, Xinyi Liu, Shujuan Yu, and Jun Cao
+Dachun Sun, You Lyu, Jinning Li, Xinyi Liu, Tarek Abdelzaher
 
-**Venue:** *IEEE Access 2021*
+*IEEE IBDAP 2025*
 
-![Paper 2 Image](/images/papers/2.png) 
+![Paper 2 Image](../images/papers/2.png) 

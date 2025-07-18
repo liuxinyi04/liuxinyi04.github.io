@@ -1,12 +1,16 @@
 ---
-title: "Metaverse Analysis"
-number: 10
-first_author: false
+title: "[10] Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion"
+collection: publications
+permalink: /publication/metaverse
+date: 2025-01-01
+venue: 'IEEE MetaCom 2025'
+first_author: true
 ---
 
-<div class="paper-title">[10] Analysis of Social Interactions in the Metaverse</div>
-<div class="paper-authors">Tarek Abdelzaher, Xinyi Liu, and Yifan Lu</div>
-<div class="paper-venue"><i>IEEE ICDCS 2024</i></div>
-<div class="paper-image" style="text-align: center;">
-    <img src="../images/papers/10.png" alt="Paper 10 Image" style="max-width: 100%; height: auto;">
-</div> 
+[10] Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion
+
+Xinyi Liu, Dachun Sun, Tarek Abdelzaher
+
+*IEEE MetaCom 2025*
+
+![Paper 10 Image](../images/papers/10.png) 
