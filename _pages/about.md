@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Profile Image](/images/profile.png)
+![Profile Image](../images/profile.png)
 
 # Xinyi Liu
 
