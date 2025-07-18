@@ -11,26 +11,17 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>First-authored Publications</h2>
+{% assign first_author = site.publications | where_exp:"item","item.title contains '[13]' or item.title contains '[12]' or item.title contains '[11]' or item.title contains '[10]' or item.title contains '[9]' or item.title contains '[8]' or item.title contains '[7]' or item.title contains '[6]'" | sort: "title" | reverse %}
+{% for post in first_author %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Co-authored Publications</h2>
+{% assign co_author = site.publications | where_exp:"item","item.title contains '[5]' or item.title contains '[4]' or item.title contains '[3]' or item.title contains '[2]' or item.title contains '[1]'" | sort: "title" | reverse %}
+{% for post in co_author %}
+  {% include archive-single.html %}
+{% endfor %}
 
 
 
