@@ -48,7 +48,7 @@
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
       {% if author.cv %}
-        <li><a href="{{ author.cv | prepend: '/files/' | prepend: base_path }}"><img src="{{ author.cv_icon | prepend: '/images/' | prepend: base_path }}" style="height: 1em; margin-right: 4px; vertical-align: middle;" alt="CV" />CV</a></li>
+        <li><a href="{{ author.cv | prepend: '/files/' | prepend: base_path }}"><img src="../images/resume_icon.png" style="height: 1em; margin-right: 4px; vertical-align: middle;" alt="CV" />CV</a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
