@@ -196,6 +196,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   align-items: flex-start;
   margin-bottom: 40px;
 }
+
 .company-logo {
   width: 80px;
   height: 80px;
@@ -203,45 +204,64 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   object-fit: contain;
   min-width: 80px;
 }
+
 .publications-list {
   margin-top: 20px;
 }
+
 .publication-item {
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
   gap: 20px;
+  background: var(--background-color);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
 .paper-image {
   flex: 0 0 120px;
-}
-.paper-image img {
-  width: 120px;
   height: 120px;
-  object-fit: contain;
+  overflow: hidden;
+  border-radius: 4px;
 }
+
+.paper-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .paper-content {
   flex: 1;
 }
+
 .paper-title {
   font-size: 1.1em;
   margin-bottom: 0.5em;
-  font-weight: normal;
+  font-weight: bold;
+  color: var(--text-color);
 }
+
 .paper-authors {
   margin-bottom: 0.5em;
-  color: #4a4a4a;
+  color: var(--text-color-light);
+  font-size: 0.95em;
 }
+
 .paper-venue {
-  color: #666;
+  color: var(--text-color-light);
   font-style: italic;
+  font-size: 0.9em;
 }
 
 h2 {
   margin-top: 2em;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--border-color);
 }
 
 h3 {
@@ -253,7 +273,14 @@ h3 {
   .work-item, .publication-item {
     flex-direction: column;
   }
-  .paper-image, .company-logo {
+  
+  .paper-image {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 15px;
+  }
+  
+  .company-logo {
     margin-bottom: 10px;
   }
 }
