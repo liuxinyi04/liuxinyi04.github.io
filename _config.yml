@@ -14,10 +14,13 @@ url: "https://liuxinyi04.github.io"
 
 # Site Author
 author:
-  name   : "Xinyi Liu"
-  avatar : "profile.png"
-  bio    : "Ph.D. candidate in Computer Science at UIUC. Social Simulation, LLM, Data Science."
-  googlescholar    : "https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en"
+  name: "Xinyi Liu"
+  avatar: "profile.png"
+  bio: "Ph.D. candidate in Computer Science at UIUC. Social Simulation, LLM, Data Science."
+  location: "Champaign, IL, USA"
+  googlescholar: "https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en"
+  cv: "xinyi_resume.pdf"
+  cv_icon: "resume.png"
 
   
   # Academic websites

@@ -1,7 +1,9 @@
+# Authors
+
 xinyiliu:
-  name   : "Xinyi Liu"
-  avatar : "profile.png"
-  bio    : "Ph.D. candidate in Computer Science at UIUC. Social Simulation, LLM, Data Science."
+  name: "Xinyi Liu"
+  avatar: "profile.png"
+  bio: "Ph.D. candidate in Computer Science at UIUC. Social Simulation, LLM, Data Science."
   location: "Champaign, IL, USA"
   googlescholar: "https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en"
   cv: "xinyi_resume.pdf"
