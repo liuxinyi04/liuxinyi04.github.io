@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+<div id="about">
 I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana-Champaign, advised by [Professor Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu/). My research lies at the intersection of large language models (LLMs), agent-based modeling, and social simulation. Specifically, I design persona-grounded LLM agents that simulate ideological behavior, belief shifts, and community-level dynamics in response to external events such as propaganda, misinformation, and persuasive narratives.
 
 I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek) and [Professor Heng Ji](https://blender.cs.illinois.edu/hengji.html), exploring research directions in natural language understanding, multimodal retrieval, and social behavior modeling.
@@ -34,6 +35,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     ByteDance | Summer 2022
   </div>
 </div>
+</div>
 
 <style>
 .work-item, .publication-item {
@@ -41,7 +43,14 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
   align-items: flex-start;
   margin-bottom: 20px;
 }
-.company-logo, .paper-icon {
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  object-fit: contain;
+  min-width: 80px;
+}
+.paper-icon {
   width: 40px;
   height: 40px;
   margin-right: 15px;
@@ -72,13 +81,12 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 {% assign first_author = site.publications | where_exp:"item","item.first_author" | sort: "number" | reverse %}
 {% for post in first_author %}
   <div class="publication-item">
+    {% assign paper_number = post.number | downcase %}
     {% assign paper_files = site.static_files | where_exp: "file", "file.path contains '/images/papers/'" %}
-    {% assign found_image = false %}
     {% for file in paper_files %}
       {% assign file_number = file.name | split: '_' | first %}
-      {% if file_number == post.number %}
+      {% if file_number == paper_number %}
         <img src="../images/papers/{{ file.name }}" alt="Paper {{ post.number }}" class="paper-icon">
-        {% assign found_image = true %}
         {% break %}
       {% endif %}
     {% endfor %}
@@ -92,13 +100,12 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 {% assign co_author = site.publications | where_exp:"item","item.first_author != true" | sort: "number" | reverse %}
 {% for post in co_author %}
   <div class="publication-item">
+    {% assign paper_number = post.number | downcase %}
     {% assign paper_files = site.static_files | where_exp: "file", "file.path contains '/images/papers/'" %}
-    {% assign found_image = false %}
     {% for file in paper_files %}
       {% assign file_number = file.name | split: '_' | first %}
-      {% if file_number == post.number %}
+      {% if file_number == paper_number %}
         <img src="../images/papers/{{ file.name }}" alt="Paper {{ post.number }}" class="paper-icon">
-        {% assign found_image = true %}
         {% break %}
       {% endif %}
     {% endfor %}
