@@ -7,13 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-![Profile Image](../images/profile.png)
+I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana-Champaign, advised by [Professor Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu/). My research lies at the intersection of large language models (LLMs), agent-based modeling, and social simulation. Specifically, I design persona-grounded LLM agents that simulate ideological behavior, belief shifts, and community-level dynamics in response to external events such as propaganda, misinformation, and persuasive narratives.
 
-# Xinyi Liu
+I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/faculty/dilek) and [Professor Heng Ji](https://blender.cs.illinois.edu/hengji.html), exploring research directions in natural language understanding, multimodal retrieval, and social behavior modeling.
 
-- **Phone:** 646-262-2260  
-- **Email:** liu323@illinois.edu  
-- **Google Scholar:** [https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en)
+My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
 ## Education
 - **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)

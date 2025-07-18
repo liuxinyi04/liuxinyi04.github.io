@@ -7,13 +7,11 @@ redirect_from:
   - /resume
 ---
 
-![Profile Image](../images/profile.png)
-
 # Xinyi Liu
 
 - **Phone:** 646-262-2260  
 - **Email:** liu323@illinois.edu  
-- **Google Scholar:** [https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en)
+- **Google Scholar:** [Google Scholar](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en)
 
 ## Education
 - **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)
