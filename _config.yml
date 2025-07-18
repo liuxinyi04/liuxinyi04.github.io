@@ -9,21 +9,18 @@
 # Basic Site Settings
 title: "Xinyi Liu"
 email: "liu323@illinois.edu"
-description: "Ph.D. Candidate in Computer Science at UIUC"
+description: "Ph.D. candidate in Computer Science at UIUC"
 url: "https://liuxinyi04.github.io"
-linkedin_username: xinyi-liu-0428
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  name   : "xinyiliu"
+  name   : "Xinyi Liu"
   avatar : "/images/profile.png"
-  bio    : "Ph.D. Candidate @ UIUC | Social Simulation & LLM"
+  bio    : "Ph.D. candidate in Computer Science at UIUC. Social Simulation, LLM, Data Science."
+  googlescholar    : "https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en"
 
   
   # Academic websites
-  googlescholar    : "https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl"
   impactstory      : # URL
   orcid            : 
   semantic         : # URL
