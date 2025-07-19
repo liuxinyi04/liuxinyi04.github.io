@@ -14,8 +14,7 @@ I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois
 My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
 <section id="education">
-Education
-=========
+## Education
 
 - **Ph.D. candidate in Computer Science**  
   University of Illinois Urbana-Champaign, Champaign, IL  
@@ -31,8 +30,7 @@ Education
 </section>
 
 <section id="work-experience">
-Work Experience
-==============
+## Work Experience
 
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
@@ -52,13 +50,11 @@ Work Experience
 </section>
 
 <section id="publications">
-Publications
-===========
+## Publications
 
 You can also find my articles on <a href="https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en" target="_blank">my Google Scholar profile</a>.
 
-First-authored Publications
--------------------------
+### First-authored Publications
 
 <div class="publications-list">
 <div class="publication-item">
@@ -150,8 +146,7 @@ First-authored Publications
 
 </div>
 
-Co-authored Publications
------------------------
+### Co-authored Publications
 
 <div class="publications-list">
 <div class="publication-item">
@@ -211,8 +206,7 @@ Co-authored Publications
 </section>
 
 <section id="selected-demo">
-Selected Demo
-============
+## Selected Demo
 
 <div class="publications-list">
 <div class="publication-item">
