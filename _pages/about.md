@@ -15,24 +15,39 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 
 ## Education {#education}
 
-- **Ph.D. candidate in Computer Science**  
-  University of Illinois Urbana-Champaign, Champaign, IL  
-  (Expected May 2027)
+<div class="work-item">
+  <img src="/images/uiuc.png" alt="UIUC" class="company-logo">
+  <div class="work-content">
+    <strong>Ph.D. candidate in Computer Science</strong><br/>
+    University of Illinois Urbana-Champaign, Champaign, IL<br/>
+    (Expected May 2027)
+  </div>
+</div>
 
-- **Master of Science in Data Science**  
-  Columbia University, New York, NY  
-  (May 2022)
+<div class="work-item">
+  <img src="/images/columbia.png" alt="Columbia" class="company-logo">
+  <div class="work-content">
+    <strong>Master of Science in Data Science</strong><br/>
+    Columbia University, New York, NY<br/>
+    (May 2022)
+  </div>
+</div>
 
-- **Bachelor of Engineering**  
-  Nanjing University of Posts and Telecommunications, Nanjing, CN  
-  (July 2019)
+<div class="work-item">
+  <img src="/images/njupt.png" alt="NJUPT" class="company-logo">
+  <div class="work-content">
+    <strong>Bachelor of Engineering</strong><br/>
+    Nanjing University of Posts and Telecommunications, Nanjing, CN<br/>
+    (July 2019)
+  </div>
+</div>
 
 ## Work Experience {#work-experience}
 
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
-    Applied Science Intern | Causal Inference, Persona Modeling<br/>
+    <strong>Applied Science Intern</strong> | Causal Inference, Persona Modeling<br/>
     Amazon Alexa AI | Summer 2025
   </div>
 </div>
@@ -40,7 +55,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 <div class="work-item">
   <img src="/images/bytedance.png" alt="ByteDance" class="company-logo">
   <div class="work-content">
-    Data Science Intern | Data Mining, User Segmentation<br/>
+    <strong>Data Science Intern</strong> | Data Mining, User Segmentation<br/>
     ByteDance | Summer 2022
   </div>
 </div>
