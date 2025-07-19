@@ -14,15 +14,23 @@ I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois
 My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
 <section id="education">
-<h1>Education</h1>
+## Education
 
-1. **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)
-2. **Master of Science in Data Science**, Columbia University, New York, NY (May 2022)
-3. **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
+* **Ph.D. candidate in Computer Science**  
+  University of Illinois Urbana-Champaign, Champaign, IL  
+  (Expected May 2027)
+
+* **Master of Science in Data Science**  
+  Columbia University, New York, NY  
+  (May 2022)
+
+* **Bachelor of Engineering**  
+  Nanjing University of Posts and Telecommunications, Nanjing, CN  
+  (July 2019)
 </section>
 
 <section id="work-experience">
-<h1>Work Experience</h1>
+## Work Experience
 
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
@@ -42,11 +50,11 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </section>
 
 <section id="publications">
-<h1>Publications</h1>
+## Publications
 
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en).
+You can also find my articles on <a href="https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en" target="_blank">my Google Scholar profile</a>.
 
-<h1>First-authored Publications</h1>
+### First-authored Publications
 
 <div class="publications-list">
 <div class="publication-item">
@@ -138,7 +146,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 </div>
 
-<h1>Co-authored Publications</h1>
+### Co-authored Publications
 
 <div class="publications-list">
 <div class="publication-item">
@@ -198,7 +206,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 </section>
 
 <section id="selected-demo">
-<h1>Selected Demo</h1>
+## Selected Demo
 
 <div class="publications-list">
 <div class="publication-item">
