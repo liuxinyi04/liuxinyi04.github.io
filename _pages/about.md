@@ -198,7 +198,6 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   </div>
 </div>
 </div>
-</section>
 
 ## Selected Demo {#selected-demo}
 
