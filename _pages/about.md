@@ -13,8 +13,7 @@ I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois
 
 My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
-<section id="education">
-## Education
+## Education {#education}
 
 - **Ph.D. candidate in Computer Science**  
   University of Illinois Urbana-Champaign, Champaign, IL  
@@ -27,10 +26,8 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 - **Bachelor of Engineering**  
   Nanjing University of Posts and Telecommunications, Nanjing, CN  
   (July 2019)
-</section>
 
-<section id="work-experience">
-## Work Experience
+## Work Experience {#work-experience}
 
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
@@ -47,10 +44,8 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     ByteDance | Summer 2022
   </div>
 </div>
-</section>
 
-<section id="publications">
-## Publications
+## Publications {#publications}
 
 You can also find my articles on <a href="https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en" target="_blank">my Google Scholar profile</a>.
 
@@ -205,8 +200,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
 </div>
 </section>
 
-<section id="selected-demo">
-## Selected Demo
+## Selected Demo {#selected-demo}
 
 <div class="publications-list">
 <div class="publication-item">
@@ -223,7 +217,6 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   </div>
 </div>
 </div>
-</section>
 
 <style>
 .work-item {
