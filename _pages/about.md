@@ -15,6 +15,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 
 ## Education {#education}
 
+<div class="education-list">
 <div class="work-item">
   <img src="/images/uiuc.png" alt="UIUC" class="company-logo">
   <div class="work-content">
@@ -41,9 +42,11 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     (July 2019)
   </div>
 </div>
+</div>
 
 ## Work Experience {#work-experience}
 
+<div class="work-list">
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
@@ -58,6 +61,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     <strong>Data Science Intern</strong> | Data Mining, User Segmentation<br/>
     ByteDance | Summer 2022
   </div>
+</div>
 </div>
 
 ## Publications {#publications}
@@ -258,10 +262,18 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   text-decoration: underline;
 }
 
+.education-list, .work-list {
+  margin-top: 20px;
+}
+
 .work-item {
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
+  background: var(--background-color);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .company-logo {
@@ -270,6 +282,16 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   margin-right: 15px;
   object-fit: contain;
   min-width: 80px;
+}
+
+.work-content {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.work-content strong {
+  font-size: 1.1em;
+  color: var(--text-color);
 }
 
 .publications-list {
