@@ -59,7 +59,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://arxiv.org/abs/2507.07870">DocCHA: Towards LLM-Augmented Interactive Online diagnosis System</a></div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Dachun Sun, Yi R Fung, Dilek Hakkani-Tür, Tarek Abdelzaher</div>
-    <div class="paper-venue">*SIGDIAL 2025*</div>
+    <div class="paper-venue">SIGDIAL 2025</div>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title">GPSocio: A Transformer-based General-purpose Social Network Representation System</div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Dachun Sun, Tarek Abdelzaher</div>
-    <div class="paper-venue">*ASONAM 2025*</div>
+    <div class="paper-venue">ASONAM 2025</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title">Beliefs in Motion: Simulating Opinion Dynamics via LLM-Powered Community Reactions</div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Dachun Sun, Dilek Hakkani Tur, Tarek Abdelzaher</div>
-    <div class="paper-venue">*ASONAM 2025*</div>
+    <div class="paper-venue">ASONAM 2025</div>
   </div>
 </div>
 
@@ -92,7 +92,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title">Influence Message Wargaming in the Metaverse: Towards LLM-Based Persuasion and Counter-Persuasion</div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Dachun Sun, Tarek Abdelzaher</div>
-    <div class="paper-venue">*IEEE MetaCom 2025*</div>
+    <div class="paper-venue">IEEE MetaCom 2025</div>
   </div>
 </div>
 
@@ -103,7 +103,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://dl.acm.org/doi/abs/10.1145/3701716.3717850">Uncovering Cross-Domain Recommendation Ability of Large Language Models</a></div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Ruijie Wang, Dachun Sun, Dilek Hakkani-Tur, Tarek Abdelzaher</div>
-    <div class="paper-venue">*WWW workshop 2025*</div>
+    <div class="paper-venue">WWW workshop 2025</div>
   </div>
 </div>
 
@@ -114,7 +114,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://ieeexplore.ieee.org/abstract/document/10429919">Influence Pathway Discovery on Social Media</a></div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Ruijie Wang, Dachun Sun, Jinning Li, Christina Youn, You Lyu, Jianyuan Zhan, Dayou Wu, Xinhe Xu, Mingjun Liu, Xinshuo Lei, Zhihao Xu, Yutong Zhang, Zehao Li, Qikai Yang, Tarek Abdelzaher</div>
-    <div class="paper-venue">*IEEE CIC 2023*</div>
+    <div class="paper-venue">IEEE CIC 2023</div>
   </div>
 </div>
 
@@ -125,7 +125,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://arxiv.org/abs/2305.14494">Unsupervised Image Classification by Ideological Affiliation from User-Content Interaction Patterns</a></div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Jinning Li, Dachun Sun, Ruijie Wang, Tarek Abdelzaher, Matt Brown, Anthony Barricelli, Matthias Kirchner, Arslan Basharat</div>
-    <div class="paper-venue">*ICWSM workshop 2023*</div>
+    <div class="paper-venue">ICWSM workshop 2023</div>
   </div>
 </div>
 
@@ -136,7 +136,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://ieeexplore.ieee.org/abstract/document/9085089">Clustering Algorithm in Wireless Sensor Networks Based on Differential Evolution Algorithm</a></div>
     <div class="paper-authors"><strong>Xinyi Liu</strong>, Ke Mei, and Shujuan Yu</div>
-    <div class="paper-venue">*IEEE ITNEC 2020*</div>
+    <div class="paper-venue">IEEE ITNEC 2020</div>
   </div>
 </div>
 
@@ -152,7 +152,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title">The Irrational LLM: Implementing Cognitive Agents with Weighted Retrieval-Augmented Generation</div>
     <div class="paper-authors">Dachun Sun, You Lyu, Jinning Li, <strong>Xinyi Liu</strong>, Denizhan Kara, Christian Lebiere, Tarek Abdelzaher</div>
-    <div class="paper-venue">*ICCCN 2025*</div>
+    <div class="paper-venue">ICCCN 2025</div>
   </div>
 </div>
 
@@ -163,7 +163,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://arxiv.org/abs/2410.19176">Perturbation-based Graph Active Learning for Semi-Supervised Belief Representation Learning</a></div>
     <div class="paper-authors">Dachun Sun, Jinning Li, <strong>Xinyi Liu</strong>, You Lyu, Hongjue Zhao, Denizhan Kara and Tarek Abdelzaher</div>
-    <div class="paper-venue">*ICCCN 2025*</div>
+    <div class="paper-venue">ICCCN 2025</div>
   </div>
 </div>
 
@@ -174,7 +174,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title">Anatomy of Conflict: a Tool for Understanding Conflict Dynamics from Social Media Data</div>
     <div class="paper-authors">Dachun Sun, Jinning Li, You Lyu, <strong>Xinyi Liu</strong>, Christina Youn, Tarek Abdelzaher</div>
-    <div class="paper-venue">*IEEE SmartNets 2025*</div>
+    <div class="paper-venue">IEEE SmartNets 2025</div>
   </div>
 </div>
 
@@ -185,7 +185,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title">Modeling Online Ideological Community Dynamics with Recurrent Variational Graph Auto-Encoders</div>
     <div class="paper-authors">Dachun Sun, You Lyu, Jinning Li, <strong>Xinyi Liu</strong>, Tarek Abdelzaher</div>
-    <div class="paper-venue">*IEEE IBDAP 2025*</div>
+    <div class="paper-venue">IEEE IBDAP 2025</div>
   </div>
 </div>
 
@@ -196,7 +196,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
   <div class="paper-content">
     <div class="paper-title"><a href="https://www.mdpi.com/1099-4300/23/8/1074">Low-Resolution ADCs for Two-Hop Massive MIMO Relay System under Rician Channels</a></div>
     <div class="paper-authors">Shujuan Yu, <strong>Xinyi Liu</strong>, Jun Cao, and Yun Zhang</div>
-    <div class="paper-venue">*Entropy 2021*</div>
+    <div class="paper-venue">Entropy 2021</div>
   </div>
 </div>
 </div>
