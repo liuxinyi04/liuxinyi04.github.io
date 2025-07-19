@@ -13,12 +13,15 @@ I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois
 
 My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
-## Education <a href="#education" class="header-link"><i class="fas fa-link"></i></a>
+<section id="education">
+## Education
 - **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)
 - **Master of Science in Data Science**, Columbia University, New York, NY (May 2022)
 - **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
+</section>
 
-## Work Experience <a href="#work-experience" class="header-link"><i class="fas fa-link"></i></a>
+<section id="work-experience">
+## Work Experience
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
@@ -34,12 +37,14 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
     ByteDance | Summer 2022
   </div>
 </div>
+</section>
 
-## Publications <a href="#publications" class="header-link"><i class="fas fa-link"></i></a>
+<section id="publications">
+## Publications
 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en).
 
-### First-authored Publications <a href="#first-authored-publications" class="header-link"><i class="fas fa-link"></i></a>
+### First-authored Publications
 
 <div class="publications-list">
 <div class="publication-item">
@@ -131,7 +136,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 </div>
 
-### Co-authored Publications <a href="#co-authored-publications" class="header-link"><i class="fas fa-link"></i></a>
+### Co-authored Publications
 
 <div class="publications-list">
 <div class="publication-item">
@@ -188,8 +193,10 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   </div>
 </div>
 </div>
+</section>
 
-## Selected Demo <a href="#selected-demo" class="header-link"><i class="fas fa-link"></i></a>
+<section id="selected-demo">
+## Selected Demo
 
 <div class="publications-list">
 <div class="publication-item">
@@ -206,6 +213,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   </div>
 </div>
 </div>
+</section>
 
 <style>
 .work-item {
@@ -288,24 +296,17 @@ h2 {
   margin-bottom: 1em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid var(--border-color);
+  scroll-margin-top: 70px; /* Add space for fixed header */
 }
 
 h3 {
   margin-top: 1.5em;
   margin-bottom: 1em;
+  scroll-margin-top: 70px; /* Add space for fixed header */
 }
 
-.header-link {
-  opacity: 0;
-  font-size: 0.8em;
-  padding-left: 0.5em;
-  color: var(--text-color-light);
-  transition: opacity 0.2s ease-in-out;
-}
-
-h2:hover .header-link,
-h3:hover .header-link {
-  opacity: 1;
+section {
+  scroll-margin-top: 70px; /* Add space for fixed header */
 }
 
 @media screen and (max-width: 768px) {
