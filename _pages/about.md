@@ -14,23 +14,25 @@ I work closely with [Professor Dilek Hakkani-Tür](https://siebelschool.illinois
 My long-term goal is to develop computational frameworks that bridge LLMs and social science, enabling interpretable, scalable, and language-aware simulations of complex human interactions.
 
 <section id="education">
-## Education
+Education
+=========
 
-* **Ph.D. candidate in Computer Science**  
+- **Ph.D. candidate in Computer Science**  
   University of Illinois Urbana-Champaign, Champaign, IL  
   (Expected May 2027)
 
-* **Master of Science in Data Science**  
+- **Master of Science in Data Science**  
   Columbia University, New York, NY  
   (May 2022)
 
-* **Bachelor of Engineering**  
+- **Bachelor of Engineering**  
   Nanjing University of Posts and Telecommunications, Nanjing, CN  
   (July 2019)
 </section>
 
 <section id="work-experience">
-## Work Experience
+Work Experience
+==============
 
 <div class="work-item">
   <img src="/images/amazon.png" alt="Amazon" class="company-logo">
@@ -50,11 +52,13 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </section>
 
 <section id="publications">
-## Publications
+Publications
+===========
 
 You can also find my articles on <a href="https://scholar.google.com/citations?user=DLdaZpcAAAAJ&hl=en" target="_blank">my Google Scholar profile</a>.
 
-### First-authored Publications
+First-authored Publications
+-------------------------
 
 <div class="publications-list">
 <div class="publication-item">
@@ -146,7 +150,8 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
 
 </div>
 
-### Co-authored Publications
+Co-authored Publications
+-----------------------
 
 <div class="publications-list">
 <div class="publication-item">
@@ -206,7 +211,8 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
 </section>
 
 <section id="selected-demo">
-## Selected Demo
+Selected Demo
+============
 
 <div class="publications-list">
 <div class="publication-item">
@@ -217,8 +223,8 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
     <div class="paper-title">DARPA INCAS: Influence Campaign Awareness and Sensemaking</div>
     <div class="paper-authors">A multi-year project on understanding influence operations in low-dimensional information spaces and their impact on populations.</div>
     <div class="paper-venue">
-      * Developed an interactive demo system that integrates ideology embedding, narrative pathway discovery, and influencer detection.<br/>
-      * Deployed the system at: incas.csl.illinois.edu, supporting visual exploration and interactive analysis of influence campaigns.
+      - Developed an interactive demo system that integrates ideology embedding, narrative pathway discovery, and influencer detection.<br/>
+      - Deployed the system at: incas.csl.illinois.edu, supporting visual exploration and interactive analysis of influence campaigns.
     </div>
   </div>
 </div>
