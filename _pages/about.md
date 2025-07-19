@@ -15,9 +15,8 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 
 ## Education {#education}
 
-<div class="education-list">
 <div class="work-item">
-  <img src="/images/uiuc.png" alt="UIUC" class="company-logo">
+  <img src="images/uiuc.png" alt="UIUC" class="company-logo">
   <div class="work-content">
     <strong>Ph.D. candidate in Computer Science</strong><br/>
     University of Illinois Urbana-Champaign, Champaign, IL<br/>
@@ -26,7 +25,7 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </div>
 
 <div class="work-item">
-  <img src="/images/columbia.png" alt="Columbia" class="company-logo">
+  <img src="images/columbia.png" alt="Columbia" class="company-logo">
   <div class="work-content">
     <strong>Master of Science in Data Science</strong><br/>
     Columbia University, New York, NY<br/>
@@ -35,20 +34,18 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </div>
 
 <div class="work-item">
-  <img src="/images/njupt.png" alt="NJUPT" class="company-logo">
+  <img src="images/njupt.png" alt="NJUPT" class="company-logo">
   <div class="work-content">
     <strong>Bachelor of Engineering</strong><br/>
     Nanjing University of Posts and Telecommunications, Nanjing, CN<br/>
     (July 2019)
   </div>
 </div>
-</div>
 
 ## Work Experience {#work-experience}
 
-<div class="work-list">
 <div class="work-item">
-  <img src="/images/amazon.png" alt="Amazon" class="company-logo">
+  <img src="images/amazon.png" alt="Amazon" class="company-logo">
   <div class="work-content">
     <strong>Applied Science Intern</strong> | Causal Inference, Persona Modeling<br/>
     Amazon Alexa AI | Summer 2025
@@ -56,12 +53,11 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 </div>
 
 <div class="work-item">
-  <img src="/images/bytedance.png" alt="ByteDance" class="company-logo">
+  <img src="images/bytedance.png" alt="ByteDance" class="company-logo">
   <div class="work-content">
     <strong>Data Science Intern</strong> | Data Mining, User Segmentation<br/>
     ByteDance | Summer 2022
   </div>
-</div>
 </div>
 
 ## Publications {#publications}
