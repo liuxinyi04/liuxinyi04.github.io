@@ -16,9 +16,9 @@ My long-term goal is to develop computational frameworks that bridge LLMs and so
 <section id="education">
 <h1>Education</h1>
 
-* **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)
-* **Master of Science in Data Science**, Columbia University, New York, NY (May 2022)
-* **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
+1. **Ph.D. candidate in Computer Science**, University of Illinois Urbana-Champaign, Champaign, IL (Expected May 2027)
+2. **Master of Science in Data Science**, Columbia University, New York, NY (May 2022)
+3. **Bachelor of Engineering**, Nanjing University of Posts and Telecommunications, Nanjing, CN (July 2019)
 </section>
 
 <section id="work-experience">
