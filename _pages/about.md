@@ -189,7 +189,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 </div>
 </div>
 
-### Selected Demo <a href="#selected-demo" class="header-link"><i class="fas fa-link"></i></a>
+## Selected Demo <a href="#selected-demo" class="header-link"><i class="fas fa-link"></i></a>
 
 <div class="publications-list">
 <div class="publication-item">
